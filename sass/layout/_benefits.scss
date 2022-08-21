@@ -1,0 +1,29 @@
+.benefits {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.thumb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f4fa;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+.benefits-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+.benefits-title {
+    @include font(700, 14px, 1.14, 0.03em);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #212121;
+}
+.benefits-after-title {
+    @include font(400, 14px, 1.71, 0.03em);
+    max-width: 270px;
+    color: #757575;
+}
