@@ -40,11 +40,9 @@ color: #000000;
     &:focus {
     color: #2196F3;   
     }
-    .current {
-        color: #2196F3;
-    } 
 }
 .current {
+    color: #2196F3;
     position: relative;
     &::after {
         content: '';

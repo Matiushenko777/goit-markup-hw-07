@@ -231,11 +231,11 @@ ul {
   justify-content: center;
   color: #757575;
 }
-.modal-check:checked + .check-text {
+.modal-check:checked + .check-text span {
   background-color: #2196F3;
   border: none;
 }
-.modal-check:checked + .check-text {
+.modal-check:checked + .check-text span {
   background-color: #2196F3;
   border: none;
 }
@@ -331,11 +331,9 @@ ul {
 .header-link:hover, .header-link:focus {
   color: #2196F3;
 }
-.header-link .current {
-  color: #2196F3;
-}
 
 .current {
+  color: #2196F3;
   position: relative;
 }
 .current::after {
